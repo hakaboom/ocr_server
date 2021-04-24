@@ -13,7 +13,7 @@ from api.paddleOCR import OCR
 
 app = FastAPI()
 OCR = OCR()
-"""uvicorn main:app --host 192.168.50.104 --port 12345 --reload"""
+"""uvicorn main:app --host 127.0.0.1 --port 8766 --reload"""
 
 @app.get("/")
 def read_root():
